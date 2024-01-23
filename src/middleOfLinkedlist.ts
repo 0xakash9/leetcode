@@ -11,7 +11,9 @@
 //   return map.get(midNodeIdx);
 // }
 
-import type { ListNode } from "../common/ListNode";
+import type { ListNode } from "./common/ListNode";
+
+//? ALGO - Floyd's Tortoise & Hare
 
 function middleNode<T>(head: ListNode<T> | null): ListNode<T> | null {
   let slowP: ListNode<T> | null = head;
