@@ -1,5 +1,5 @@
 import type { ListNode } from "./common/ListNode";
-
+//? Floyd's tortoise & Hare
 function hasCycle<T>(head: ListNode<T> | null): boolean {
   let slow = head;
   let fast = head;
