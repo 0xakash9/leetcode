@@ -10,6 +10,8 @@ func main() {
 	 k:=removeDuplicates(nums[:]);
 
 	 fmt.Println("k",k)
+
+	 arrayStringAreEqual([]string{"ab","c"},[]string{"a","bc"})
 }
 
 func RemoveELement() {
