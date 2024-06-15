@@ -2,10 +2,14 @@ package main
 
 import "fmt"
 
-// Remove Element
 func main() {
 	RemoveELement()
 	moveZeros()
+
+	var nums = [...]int{1, 1, 2}
+	 k:=removeDuplicates(nums[:]);
+
+	 fmt.Println("k",k)
 }
 
 func RemoveELement() {
@@ -40,3 +44,5 @@ func moveZeros() {
 
 	fmt.Println("nums", nums)
 }
+
+
