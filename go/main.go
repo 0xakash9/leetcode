@@ -12,6 +12,7 @@ func main() {
 	 fmt.Println("k",k)
 
 	 arrayStringAreEqual([]string{"ab","c"},[]string{"a","bc"})
+	//  backspaceCompare("sss","ss")
 }
 
 func RemoveELement() {
