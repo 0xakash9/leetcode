@@ -1,4 +1,4 @@
-export type ListNode<T> = {
-  value: T;
-  next?: ListNode<T>;
+export type ListNode = {
+  value: any;
+  next?: any;
 };
