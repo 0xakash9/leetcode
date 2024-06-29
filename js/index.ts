@@ -1,1 +1,3 @@
-// import {} from '@builder.io/gpt-crawler'
+import { ArrayToDoubleLinkedList } from "./src/ddl";
+
+ArrayToDoubleLinkedList();
