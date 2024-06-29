@@ -6,12 +6,12 @@ func main() {
 	RemoveELement()
 	moveZeros()
 
-	var nums = [...]int{1, 1, 2}
-	 k:=removeDuplicates(nums[:]);
+	// var nums = [...]int{1, 1, 2}
+	//  k:=removeDuplicates(nums[:]);
 
-	 fmt.Println("k",k)
+	//  fmt.Println("k",k)
 
-	 arrayStringAreEqual([]string{"ab","c"},[]string{"a","bc"})
+	//  arrayStringAreEqual([]string{"ab","c"},[]string{"a","bc"})
 	//  backspaceCompare("sss","ss")
 }
 
